@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/van/pro/Jekyll'
+let g:netrw_dirhist_2='/Users/van/pro/Jekyll/vanever.github.com'
+let g:netrw_dirhist_3='/Users/van/Downloads/simplygrey-jekyll-master/_layouts/simplegray'
+let g:netrw_dirhist_4='/Users/van/pro/p0sixspwn'
+let g:netrw_dirhist_5='/Users/van/.vim'
+let g:netrw_dirhist_6='/Users/van/dotfiles'
+let g:netrw_dirhist_7='/Users/van/dotfiles/.vim/bundle/ctrlp/autoload'

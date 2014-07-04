@@ -1,0 +1,34 @@
+"3.3 (created: 2011/11/13 17:32:12)
+
+highlight Hint::after content: attr(number); font-size:10pt 
+highlight Normal color: black; background: white; font-size:11pt
+
+map J <C-d>
+map K <C-u>
+
+noremap .gg  :open<Space>https://www.google.com.hk<Return>
+noremap .mg  :open<Space>https://mail.google.com<Return>
+noremap .mm  :open<Space>http://mail.163.com<Return>
+noremap .qq  :open<Space>http://web.qq.com<Return>
+noremap .bbs :open<Space>http://bbs.fudan.edu.cn<Return>
+noremap .wb  :open<Space>http://weibo.com<Return>
+noremap .pt  :open<Space>http://pt.fudan.edu.cn<Return>
+
+noremap ,gg  :tabopen<Space>https://www.google.com.hk<Return>
+noremap ,mg  :tabopen<Space>https://mail.google.com<Return>
+noremap ,mm  :tabopen<Space>http://mail.163.com<Return>
+noremap ,qq  :tabopen<Space>http://web.qq.com<Return>
+noremap ,bbs :tabopen<Space>http://bbs.fudan.edu.cn<Return>
+noremap ,wb  :tabopen<Space>http://weibo.com<Return>
+noremap ,pt  :tabopen<Space>http://pt.fudan.edu.cn<Return>
+
+noremap h gT
+noremap l gt
+noremap j 10j
+noremap k 10k
+
+set "nextpattern=s*下一页|下一张|下一篇|下页|后页s*,^bnextb,\\bnext\\b,^>$,^(>>|»)$,^(>|»),(>|»)$,\\bmore\\b"
+set "previouspattern=s*上一页|上一张|上一篇|上页|前页s*,^bprev|previousb,\\bprev|previous\\b,^<$,^(<<|«)$,^(<|«),(<|«)$"
+source! /home/van/.vimperatorrc.local
+
+" vim: set ft=vimperator:
